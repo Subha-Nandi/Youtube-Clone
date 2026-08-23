@@ -71,7 +71,7 @@
  }
 
 
- @media (max-width: 720px) and (min-width:300px) {
+ @media (max-width: 920px) and (min-width:300px) {
      .video-grid {
          grid-template-columns: 1fr;
      }
@@ -79,10 +79,26 @@
      .video-title {
          font-size: 15px;
      }
+
+     .sidebar{
+        display: none;
+     }
+     body{
+        padding-left: 10px;
+     }
+
+     .header hamburger-menu{
+             display: none;
+     }
+
+     .ham{
+        display: none;
+     }
+     
  }
 
  /* Small screen: 2 videos */
- @media (min-width: 721px) and (max-width:1150px) {
+ @media (min-width: 921px) and (max-width:1150px) {
      .video-grid {
          grid-template-columns: 1fr 1fr;
      }
