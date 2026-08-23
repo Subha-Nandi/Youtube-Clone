@@ -1,0 +1,65 @@
+.suggestions-wrapper {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    background-color: white;
+    margin-top: 0;
+}
+
+
+.suggestions {
+    display: flex;
+    gap: 12px;
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+    padding: 10px 0;
+
+    scrollbar-width: none;
+}
+
+.suggestions::-webkit-scrollbar {
+    display: none;
+}
+
+.suggestion.active {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+.suggestion {
+    flex-shrink: 0;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 8px 14px;
+
+    background-color: #f2f2f2;
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.suggestions-wrapper::after {
+    content: "";
+    display: flex;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    width: 50px;
+    height: 100%;
+
+    pointer-events: none;
+
+    background: linear-gradient(to right,
+            transparent,
+            white);
+}
