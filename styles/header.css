@@ -173,6 +173,19 @@
      flex-shrink: 0;
  }
 
+ .right-section-mobile {
+     align-items: center;
+     width: 200px;
+     margin-right: 20px;
+     display: flex;
+     gap: 20px;
+     justify-content: flex-end;
+     flex-shrink: 0;
+ }
+
+
+
+
  .channel-picture-icon {
      height: 30px;
      border-radius: 28px;
@@ -244,6 +257,3 @@
      padding-top: 2px;
 
  }
-
-
- 

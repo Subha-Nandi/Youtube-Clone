@@ -7,6 +7,21 @@
      position: relative;
  }
 
+ .video-time {
+     position: absolute;
+     bottom: 8px;
+     right: 5px;
+
+     background-color: black;
+     color: white;
+
+     font-size: 12px;
+     font-weight: 500;
+
+     padding: 4px 6px;
+     border-radius: 2px;
+ }
+
 
  .search-bar {
      display: block
@@ -71,56 +86,84 @@
  }
 
 
- 
-
-@media (max-width: 580px) {
-
-    .video-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .video-title {
-        font-size: 15px;
-    }
-
-    .sidebar {
-        display: none;
-    }
-
-
-    body {
-        padding-left: 10px;
-        padding-right: 10px;
-
-    }
-
-    .ham {
-        display: none;
-    }
-}
 
 
 
-@media (min-width: 581px) and (max-width: 968px) {
 
-    .video-grid {
-        grid-template-columns: 1fr 1fr;
-    }
+ @media (max-width: 580px) {
 
-    .video-title {
-        font-size: 18px;
-    }
-}
+     .video-grid {
+         grid-template-columns: 1fr;
+     }
+
+     .video-title {
+         font-size: 15px;
+     }
+
+     .sidebar {
+         display: none;
+     }
+
+     .middle-section {
+         display: none !important;
+     }
+
+     /* right section */
+
+
+     .right-section {
+         display: none !important;
+     }
+
+     .right-section-mobile {
+         display: block;
+     }
 
 
 
-@media (min-width: 969px) {
 
-    .video-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
-    .video-title {
-        font-size: 20px;
-    }
-}
+     body {
+         padding-left: 10px;
+         padding-right: 10px;
+
+     }
+
+     .ham {
+         display: none;
+     }
+ }
+
+
+
+ @media (min-width: 581px) and (max-width: 968px) {
+
+     .video-grid {
+         grid-template-columns: 1fr 1fr;
+     }
+
+     .video-title {
+         font-size: 18px;
+     }
+
+     .right-section-mobile {
+         display: none !important;
+     }
+ }
+
+
+
+ @media (min-width: 969px) {
+
+     .video-grid {
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+
+     .video-title {
+         font-size: 20px;
+     }
+
+     .right-section-mobile {
+         display: none !important;
+     }
+ }
