@@ -70,6 +70,9 @@
      padding-top: 70px;
  }
 
+
+ 
+
 @media (max-width: 580px) {
 
     .video-grid {
@@ -97,7 +100,6 @@
 }
 
 
-/* Small tablet: 2 videos */
 
 @media (min-width: 581px) and (max-width: 968px) {
 
@@ -111,7 +113,6 @@
 }
 
 
-/* Desktop: 3 videos */
 
 @media (min-width: 969px) {
 
