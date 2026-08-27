@@ -2,6 +2,11 @@
 
 A responsive **YouTube.com clone** created as a frontend development practice project using **HTML5 and CSS3**. The project focuses on recreating the visual layout and user interface of YouTube, including the header, sidebar, suggestion bar, video grid, thumbnails, channel information, and responsive design.
 
+
+## 🔗 Live Demo
+
+[View Live Website](https://subha-nandi.github.io/Youtube-Clone/)
+
 > **Note:** This is an educational project created for learning and practice purposes. It is not affiliated with or endorsed by YouTube.
 
 ## Features
